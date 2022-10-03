@@ -1,0 +1,97 @@
+﻿<Window x:Class="ThiagoDonasVieira_d7_avaliacao.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ThiagoDonasVieira_d7_avaliacao"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="660" Width="480"
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center"
+        >
+    <Grid>
+        <TextBlock 
+             Width="287" 
+             Height="29"
+             Margin="96,60,0,0"
+             HorizontalAlignment="Left" 
+             VerticalAlignment="Top" 
+             FontFamily="Inter" 
+             FontStyle="Normal"
+             FontWeight="Bold"
+             FontSize="24"
+             Text="Autenticação de usuário"
+             />
+        
+        <TextBlock
+            Width="58"
+            Height="19"
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Top"
+            Margin="60,145,0,0"
+            FontFamily="Inter"
+            FontStyle="Normal" 
+            FontSize="16"
+            Text="Usuário"
+            />
+        
+        <TextBox
+            Width="360"
+            Height="60"
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Top"
+            Margin="60,180,0,0"
+            TextChanged="TextBox1_TextChanged"
+            Name="TextBox1"
+            TextAlignment="Center"
+            FontFamily="Inter"
+            FontStyle="Normal"
+            FontSize="20"
+            MaxLines="1"
+            />
+
+        <TextBlock
+            Width="48"
+            Height="19"
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Top"
+            Margin="60,325,0,0"
+            FontFamily="Inter"
+            FontStyle="Normal" 
+            FontSize="16"
+            Text="Senha"
+            />
+
+        <TextBox
+            Width="360"
+            Height="60"
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Top"
+            Margin="60,360,0,0"
+            TextChanged="TextBox2_TextChanged"
+            Name="TextBox2"
+            TextAlignment="Center"
+            FontFamily="Inter"
+            FontStyle="Normal"
+            FontSize="20"
+            MaxLines="1"
+            />
+
+        <Button
+            Width="240"
+            Height="60"
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Top"
+            Margin="120,540,0,0"
+            Content="Acessar"
+            FontFamily="Inter"
+            FontStyle="Normal" 
+            FontSize="16"
+            Click="Button_Click"
+            
+            />
+
+
+
+    </Grid>
+</Window>
